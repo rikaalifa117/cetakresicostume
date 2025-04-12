@@ -32,8 +32,8 @@ export default function PdfEditor() {
     pages.forEach((page) => {
       const { width, height } = page.getSize();
       page.drawText(`${quantity} ${code} - HS`, {
-        x: width - 100,
-        y: height - 160,
+        x: width - 80,
+        y: height - 140,
         size: 10,
         font,
         color: rgb(1, 0, 0),
